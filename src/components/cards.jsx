@@ -633,7 +633,7 @@ export default function Card() {
           {livros.map((livro) => (
             <div
               key={livro.id}
-              className="w-full border border-slate-600 rounded-xl p-2 text-center flex flex-col gap-4 hover:scale-90 hover:bg-[#f5f8da] transition-all
+              className="w-full border border-slate-600 rounded-xl p-2 text-center flex flex-col gap-4 hover:scale-90 hover:bg-[#f5f8da] transition-all cursor-pointer
               
               md:hover:scale-95 
               "
